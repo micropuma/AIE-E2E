@@ -1,3 +1,6 @@
-[submodule "externals"]
-	path = externals/llvm/
+[submodule "externals/llvm-project"]
+	path = externals/llvm-project
 	url = git@github.com:llvm/llvm-project.git
+[submodule "externals/mlir-aie"]
+	path = externals/mlir-aie
+	url = git@github.com:Xilinx/mlir-aie.git

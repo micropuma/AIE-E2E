@@ -1,0 +1,11 @@
+joblib
+ipykernel
+psutil
+rich
+pybind11
+numpy
+cmake
+nanobind
+astor
+sympy
+jinja2
