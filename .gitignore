@@ -1,2 +1,5 @@
 externals/
 AIE_E2E/
+build/
+__pycache__/
+my_project/
