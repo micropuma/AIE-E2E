@@ -3,7 +3,7 @@ import sys
 cur_dir = os.path.dirname(os.path.abspath(__file__))
 aries_path = cur_dir + "/../../"
 sys.path.append(aries_path)
-from newfrontend import *
+from frontend import *
 
 @task_kernel(external_path="kernel_mm/aie_fp32_v0", para = [32,32,32])
 def kernel_gemm(TileA: float32[32, 32], 

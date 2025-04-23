@@ -1,7 +1,7 @@
 PRO_PATH=$PWD
 LLVM_DIR=`realpath ${1:-"$PWD/externals/llvm-project"}`
 AIE_DIR=`realpath ${2:-"$PWD/externals/mlir-aie"}`
-CMAKE=`realpath ${3:-"$PWD/aiecompiler/bin/cmake"}`
+CMAKE=`realpath ${3:-"$PWD/AIE_E2E/bin/cmake"}`
 
 mkdir -p ${PRO_PATH}/build && cd ${PRO_PATH}/build
 
